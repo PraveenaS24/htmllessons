@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Input Elements</title>
+</head>
+<body>
+	<div>
+		<form>
+			<div>
+				<label for='year'> Year of experience: <input name='year'
+					id='year' type='number' step=0.05 maxlength=5 min=5 max=10 value=35>
+				</label>
+			</div>
+			<div>
+				<label for='age'> Age Range: <input name='age' id='age'
+					type='range' step=1 min=22 max=50 value=50 required>
+				</label>
+			</div>
+			<div>
+				<label for='phone'> Phone Number: <input name='phone'
+					id='age' type='tel' required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+					placeholder='123-456-6789'>
+				</label>
+			</div>
+			<div>
+				<input name='course' id='course' type="checkbox" checked=true
+					required value='computer science'> <input name='course'
+					id='course' type="checkbox" required value='english'> <input
+					name='course' id='course' type="checkbox" required
+					value='mathematics'>
+			</div>
+			<div>
+				<label for='secret'> hidden content: <input type='hidden'
+					name='secret' value='passwordA'>
+				</label>
+			</div>
+			<div>
+				<label for='url'> url: <input type='url' name='url'
+					value='www.google.com'>
+				</label>
+			</div>
+			<div>
+				<label for='listofFruits'> <select name='listofFruits'
+					title='select the fruits'>
+						<option selected>select fruit</option>
+						<option>Apple</option>
+						<option>Orange</option>
+						<option>Mango</option>
+						<optgroup label="Bananas">
+							<option>red banana</option>
+							<option>yellow banana</option>
+							<option>green banana</option>
+						</optgroup>
+						<option>Banana</option>
+				</select>
+				</label>
+			</div>
+			<div>
+				<label for='comments'> <textarea name="comments" cols=50
+						rows=5></textarea>
+				</label>
+			</div>
+			<div>
+				<input type='submit' value='click me'> <input type='reset'
+					value='reset'> <input type='image' alt='close' name='close'
+					src='../images/close.jpg' width=25 height=25>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

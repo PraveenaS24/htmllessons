@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+       let funcB = function () { 
+           return 100 + 200; 
+        }
+       let resultC= funcB();
+    
+    let resultB = funcB();
+         console.log(resultB);
+    let someFunction = function () { 
+        return "I am a function!";
+    }
+    let alsoAFunction = someFunction; //No parentheses() so alsoAFunction becomes a function
+        result = alsoAFunction();
+        // alsoAFunction is executed here so result stores the
+        // return value of the function which is "I am a function!"
+        console.log(result);
+    </script>
+</body>
+</html>

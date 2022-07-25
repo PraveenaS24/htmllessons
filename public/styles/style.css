@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+/*  class selectors */
+.centered {
+	text-align: center;
+}
+
+.largefont {
+	font-size: large;
+	background-color: pink;
+	color: blue;
+}
+
+.mediumfont {
+	font-size: medium;
+}
+
+.smallfont {
+	font-size: small;
+}
+
+.reddiv {
+	color: red;
+}
+
+	div > p {
+	color: orange;
+	font-size: medium;
+	}
+/* 
+	ID selector
+	 */
+#div1 {
+	color: green;
+	font-size: larger;
+	text-align: left;
+}
+/* 
+pseudo selector
+*/
+/*
+	div:first-child {
+	color: gray;
+	font-size: medium;
+	}
+	div:last-child {
+	color: gray;
+	font-size: medium;
+	} 
+	
+	/* type selector */
+div:nth-child(even) {
+	color: yellow;
+	font-size: medium;
+}
+
+div:nth-child(odd) {
+	color: orange;
+	font-size: large;
+}
+
+div:nth-child(2n+1) {
+	color: cyan;
+	font-size: medium;
+}
+/* type selector and pseudp selector for link */
+a {
+	color: lime;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+/* #Chennai {
+	color: orange;
+}
+#Madurai {
+	color: pink;
+}
+#Arni {
+	color: purple;
+} */
+/* a[href="https://chennai.nic.in"] {
+	color: darkblue;
+}
+a[href="https://madurai.nic.in"] {
+	color: wheat;
+}
+a[href="https://arni.nic.in"] {
+	color: gold;
+} */
+input[id="fname"] {
+	color: gold;
+	background-color: maroon;
+}
+ a[href*="chennai.nic"] {
+	color: darkblue;
+}
+a[href*="madurai.nic"] {
+	color: wheat;
+}
+a[href*="Vellore.nic"] {
+	color: gold;
+} 
